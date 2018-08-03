@@ -7,7 +7,7 @@ namespace CG_4_1
         static void Main(string[] args)
         {
             /*This initial part of the code gets the user to input the number that we will
-            be using to multiply within the loop.*/
+            be using to multiply within the loop.
 
             Console.WriteLine("Please enter a number");
             var multi = Console.ReadLine();
@@ -17,13 +17,19 @@ namespace CG_4_1
              and continues until 20.
              Unrelated side note -- I NEVER KNOW WHAT TO NAME VARIABLES.*/
 
-            var sum = 0
+           
             for (int number = 2; number < 21; number++)
             {
-                var numbers = multiplier * number;
-                Console.WriteLine(number);
+                Console.WriteLine("Please enter a number");
+                var multi = Console.ReadLine();
+                var multiplier = int.Parse(multi);
+
+                var numbs = multiplier * number;
+
+                Console.WriteLine(numbs);
 
             }
+
 
             Console.ReadLine();
 
